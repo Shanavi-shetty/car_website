@@ -1,0 +1,14 @@
+.txt{
+    width: 40px;
+    background-color: darkgray;
+    border: 20px;
+    border-radius: 20px;
+    box-shadow:midnightblue;
+    text-emphasis-color:rgb(2, 56, 44);
+    padding-top: 30px;
+    margin:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.range{
+    
+}

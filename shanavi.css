@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    list-style: none;
+    letter-spacing: 1px;
+
+} font-size: none;
+    background-color:rgb(189, 47, 47);
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header{
+    width: 100%;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo{
+    width: 200px;
+    height: 110px;
+    background: url(logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav ul{
+    display: flex;
+    gap: 30px;
+
+}
+.nav ul li{
+   
+.nav ul li a{
+    padding: 10px;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #242424;
+
+}
+.nav ul li a:hover{
+    border-bottom: 2px solid #1d4294;
+}
+.buttons{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+#login{
+    display:left;
+
+}
+.buttons button{
+    width: 120px; 
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500px;
+    color: #242b2e;
+}
+.buttons button:hover{
+    color:#ffff;
+    background-image: linear-gradient(to right, #e62323 20%, #9420c2 80%);
+
+}
+.main_content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    padding: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #242b2e;
+}
+.content h1{
+    font-size: 52px;
+    letter-spacing: 2px;
+
+}
+.content span{
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.content p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.car_img{
+width: 100%;
+height: 500px;
+background:url(car12345.jpg); 
+background-repeat: no-repeat;
+background-size: contain;
+float: right;
+}
+.future{
+width: 100%;
+padding: 10px;
+display: flex;
+justify-content: center;
+}
+.futute h1{
+    text-align: center;
+}
+.future .engine,.transmission,.power,.brake{
+width: 300px;
+height: 90px;
+padding: 4px;
+margin: 25px;
+border-radius: 8px;
+font-size: 14px;
+font-weight: 500;
+display: flex;
+text-decoration: row;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+.future .engine img,.transmission img,.power img,.brake img{
+    width: 100px;
+    height: 80px;
+    padding:3px;
+    border-radius: 10px;
+
+}
+.future .engine:hover,.transmission:hover,.power:hover,.brake:hover{
+    background-image: linear-gradient(to right, #4facfe 20%, #26b7be 80%);
+    color:#ffff;
+    font-weight: 500;
+section bmw-cars{
+    padding: 20px;
+    margin: 20px;
+    border: 1px;
+
+}
+}
+.table tr td th{
+width: 300px;
+height: 90px;
+padding: 4px;
+margin: 25px;
+border-radius: 8px;
+font-size: 14px;
+font-weight: 500;
+display: flex;
+text-decoration: row;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+
+.login-container{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-sizing: 0 2px 5px black;
+    padding: 20px;
+    max-width: 300px;
+    width: 100px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+label{
+    margin-bottom: 5px;
+    text-align: center;
+}
+input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border:1px solid#ccc;
+    border-radius: 3px;
+}
+button{
+    padding: 10px;
+    background-color: rgb(0, 255, 106);
+    color: #53ad29;
+    border: none;
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color: #1da533;
+    
+}
+
+fieldset{
+    background-color: rgb(162, 210, 250);
+}
+  
